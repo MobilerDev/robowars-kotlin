@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="app.muratdev.robowarskotlin.ui.gallery.GalleryFragment"
+        android:id="@+id/nav_to_firestore"
+        android:name="app.muratdev.robowarskotlin.ui.firestore.FirestoreFragment"
         android:label="@string/menu_to_firestore"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_firestore" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="app.muratdev.robowarskotlin.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_to_realtimedb"
+        android:name="app.muratdev.robowarskotlin.ui.realtimedb.RealtimeDBFragment"
         android:label="@string/menu_to_realtime"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_realtimedb" />
 </navigation>
