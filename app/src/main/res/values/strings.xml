@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">RoboWars Kotlin</string>
-    <string name="textview">TextView</string>
+    <string name="app_name">RobowarsKotlin</string>
+
+    <string name="btnFw">İleri</string>
+    <string name="btnBw">Geri</string>
+    <string name="btnLeft">Sol</string>
+    <string name="btnRight">Sağ</string>
+
 </resources>

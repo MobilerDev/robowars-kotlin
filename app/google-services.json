@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "135364529453",
+    "firebase_url": "https://muratdevit-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "muratdevit",
+    "storage_bucket": "muratdevit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135364529453:android:33d032ee5838d6c73b57a4",
+        "android_client_info": {
+          "package_name": "it.muratdev.robowars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135364529453-t3gqq286gqbmerh27tvdjq5ru6696109.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsN2vzsaWS4b-1X_uIkQ0sXnT2GCEdFR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135364529453-t3gqq286gqbmerh27tvdjq5ru6696109.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

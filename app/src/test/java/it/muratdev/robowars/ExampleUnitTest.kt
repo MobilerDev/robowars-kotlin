@@ -1,4 +1,4 @@
-package app.muratdev.robowarskotlin
+package it.muratdev.robowars
 
 import org.junit.Test
 
