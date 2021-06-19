@@ -13,32 +13,31 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val database = FirebaseDatabase.getInstance()
-        val dbLeft = database.getReference("leftMotor")
-        val dbRight = database.getReference("rightMotor")
+        val dbState = database.getReference("state")
 
 
         // Sağ Sol
         findViewById<Button>(R.id.btnRight).setOnClickListener  { view ->
             Snackbar.make(view, "Sağ", Snackbar.LENGTH_LONG).show()
-            dbRight.setValue(5)
-            dbLeft.setValue(8)
+            dbState.setValue("right")
         }
         findViewById<Button>(R.id.btnLeft).setOnClickListener  { view ->
             Snackbar.make(view, "Sol", Snackbar.LENGTH_LONG).show()
-            dbRight.setValue(8)
-            dbLeft.setValue(5)
+            dbState.setValue("left")
         }
 
         // İleri Geri
         findViewById<Button>(R.id.btnFw).setOnClickListener { view ->
             Snackbar.make(view, "İleri", Snackbar.LENGTH_LONG).show()
-            dbRight.setValue(8)
-            dbLeft.setValue(8)
+            dbState.setValue("forward")
         }
         findViewById<Button>(R.id.btnBw).setOnClickListener  { view ->
             Snackbar.make(view, "Geri", Snackbar.LENGTH_LONG).show()
-            dbRight.setValue(-5)
-            dbLeft.setValue(-5)
+            dbState.setValue("backward")
+        }
+        findViewById<Button>(R.id.btnStop).setOnClickListener  { view ->
+            Snackbar.make(view, "Dur", Snackbar.LENGTH_LONG).show()
+            dbState.setValue("stop")
         }
 
     }
